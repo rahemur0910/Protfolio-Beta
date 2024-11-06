@@ -1,8 +1,8 @@
-let memuIcon = document.querySelector('#menu-icon');
+let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
-memuIcon.onclick = () =>
+menuIcon.onclick = () =>
 {
-    memuIcon.classList.toggle('fa-xmark');
+    menuIcon.classList.toggle('fa-xmark');
     navbar.classList.toggle('active');
 }
 
@@ -74,7 +74,7 @@ const typed = new Typed('.multiple-text', {
     loop: true,
 
 })
-
+/*
 document.addEventListener('contextmenu', function(event) {
     event.preventDefault();
 });
@@ -86,3 +86,4 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
+*/
